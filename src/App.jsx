@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
+import Explore from "./pages/Explore";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/explore" element={<Explore />} />
         <Route path="/profile/:userId" element={<Profile />} />
         <Route path="/wallet" element={<Wallet />} />
         <Route path="/create-post" element={<CreatePost />} />

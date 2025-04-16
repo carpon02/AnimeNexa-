@@ -15,8 +15,10 @@ export default {
         warning: "#FBBD23",
         error: "#FD0025",
       },
+      fontFamily: {
+        epilogue: ['Epilogue', 'sans-serif'],
+      },
     },
   },
   plugins: [],
 }
-

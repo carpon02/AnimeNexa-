@@ -10,10 +10,9 @@ import nft8 from '../assets/nft8.png';
 import nft9 from '../assets/nft9.png';
 import nft10 from '../assets/nft10.png';
 import nft11 from '../assets/nft11.png';
-import nft12 from '../assets/nft12.png';
 import nft13 from '../assets/nft13.png';
 import solana from '../assets/solana.png';
-
+import onboardingImage from '../assets/OnboardingImage.png'
 
 export const assets = {
     logo,
@@ -28,9 +27,9 @@ export const assets = {
     nft9,
     nft10,
     nft11,
-    nft12,
     nft13,
-    solana
+    solana,
+    onboardingImage
 }
 
 export const users = [
@@ -142,6 +141,9 @@ export const users = [
       tips: [{ fromUser: "user4", amount: 0.015 }],
     },
   ];
+
+
+
 
   export const messages = [
     {
