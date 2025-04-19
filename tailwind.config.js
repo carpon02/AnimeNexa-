@@ -18,6 +18,14 @@ export default {
       fontFamily: {
         epilogue: ['Epilogue', 'sans-serif'],
       },
+      
+      gridTemplateColumns: {
+        'auto':'repeat(auto-fill, minmax(190px, 1fr))'
+      },
+
+      backgroundImage:{
+        'custom-gradient': 'linear-gradient(to right, #D523FA, #A24Ef3, #6682EC,#28BBE4)',
+      }
     },
   },
   plugins: [],

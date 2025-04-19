@@ -14,3 +14,17 @@ body {
 .active hr{
     @apply block
 }
+
+@layer components{
+    .primary-btn{
+        @apply bg-primary text-white py-3 px-8 rounded-md hover:scale-110 duration-100
+    }
+
+}
+
+@layer utilities{
+    .drop-shadow{
+        filter: drop-shadow(-6px 8px 15px rgba(0,0,0,0.4));
+    }
+
+}

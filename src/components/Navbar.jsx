@@ -52,11 +52,11 @@ const Navbar = () => {
           ? <div className='group relative'>
           
               <CgProfile  className='hidden md:block text-[25px] cursor-pointer'/>
-              <div className="group-hover:block hidden absolute right-0 pt-4 ">
-                <div className="flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-600 font-semi-bold ">
-                  <p onClick={()=>navigate('/profile/:userId')} className="cursor-pointer hover:text-black">My Profile</p>
-                  <p onClick={()=>navigate('/wallet')} className="cursor-pointer hover:text-black">My Wallet</p>
-                  <p onClick={()=>setToken(false)} className="cursor-pointer hover:text-black">Logout</p>
+              <div className="group-hover:block hidden absolute right-[-5] pt-4 ">
+                <div className="min-w-36 bg-stone-100 rounded flex flex-col gap-4 p-4 ">
+                  <p onClick={()=>navigate('/profile/:userId')} className="cursor-pointer hover:text-primary hover:bg-green hover:font-semibold transition-all duration-300">My Profile</p>
+                  <p onClick={()=>navigate('/wallet')} className="cursor-pointer hover:text-black hover:font-semibold transition-all duration-300">My Wallet</p>
+                  <p onClick={()=>setToken(false)} className="cursor-pointer hover:text-black hover:font-semibold transition-all duration-300">Logout</p>
                 </div>
               </div>
           </div>

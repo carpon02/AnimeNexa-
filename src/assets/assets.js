@@ -13,6 +13,16 @@ import nft11 from '../assets/nft11.png';
 import nft13 from '../assets/nft13.png';
 import solana from '../assets/solana.png';
 import onboardingImage from '../assets/OnboardingImage.png'
+import ellipse1 from '../assets/ellipse1.png'
+import ellipse2 from '../assets/ellipse2.png'
+import ellipse3 from '../assets/ellipse3.png'
+import bitcoin from '../assets/bitcoin.png'
+import bannerLogo from '../assets/bannerLogo.png'
+import backpack from '../assets/backpack.png'
+import brave from '../assets/brave.png'
+import solflare from '../assets/solflare.png'
+
+
 
 export const assets = {
     logo,
@@ -29,7 +39,16 @@ export const assets = {
     nft11,
     nft13,
     solana,
-    onboardingImage
+    onboardingImage,
+    ellipse1,
+    ellipse2,
+    ellipse3,
+    brave,
+    solflare,
+    bitcoin,
+    backpack,
+    bannerLogo
+
 }
 
 export const users = [
@@ -84,6 +103,128 @@ export const users = [
     },
   ];
 
+
+  export const nfts = [
+    {
+      id: "nft1",
+      image: nft1,
+      title: "Mystic Warrior",
+      artistUsername: "#azukiwave",
+      likes: 325,
+      valueInSOL: 2.5,
+      createdAt: "2025-04-10T14:00:00Z"
+    },
+    {
+      id: "nft2",
+      image: nft2,
+      title: "Moonlight Blade",
+      artistUsername: "#katanakid",
+      likes: 580,
+      valueInSOL: 4.1,
+      createdAt: "2025-04-12T09:30:00Z"
+    },
+    {
+      id: "nft3",
+      image: nft3,
+      title: "Neon Spirit",
+      artistUsername: "#neonsenpai",
+      likes: 212,
+      valueInSOL: 1.8,
+      createdAt: "2025-04-13T16:45:00Z"
+    },
+    {
+      id: "nft4",
+      image: nft4,
+      title: "Cyber Geisha",
+      artistUsername: "#technohime",
+      likes: 420,
+      valueInSOL: 3.3,
+      createdAt: "2025-04-14T18:15:00Z"
+    },
+    {
+      id: "nft5",
+      image: nft5,
+      title: "Samurai of Fire",
+      artistUsername: "#flamewalker",
+      likes: 301,
+      valueInSOL: 2.0,
+      createdAt: "2025-04-15T11:00:00Z"
+    },
+    {
+      id: "nft6",
+      image: nft6,
+      title: "Shadow Oni",
+      artistUsername: "#oniX",
+      likes: 145,
+      valueInSOL: 1.2,
+      createdAt: "2025-04-11T12:45:00Z"
+    },
+    {
+      id: "nft7",
+      image: nft7,
+      title: "Tsubasa Rise",
+      artistUsername: "#winghero",
+      likes: 377,
+      valueInSOL: 2.9,
+      createdAt: "2025-04-13T08:00:00Z"
+    },
+    {
+      id: "nft8",
+      image: nft8,
+      title: "Digital Sorcerer",
+      artistUsername: "#codecaster",
+      likes: 288,
+      valueInSOL: 3.6,
+      createdAt: "2025-04-09T15:00:00Z"
+    },
+    {
+      id: "nft9",
+      image: nft9,
+      title: "Dragon Spirit",
+      artistUsername: "#drakenshi",
+      likes: 509,
+      valueInSOL: 4.9,
+      createdAt: "2025-04-08T18:00:00Z"
+    },
+    {
+      id: "nft10",
+      image: nft10,
+      title: "Ronin Night",
+      artistUsername: "#nightblade",
+      likes: 193,
+      valueInSOL: 2.1,
+      createdAt: "2025-04-14T21:30:00Z"
+    },
+    {
+      id: "nft11",
+      image: "nft11",
+      title: "Sakura Dream",
+      artistUsername: "#blossomcore",
+      likes: 631,
+      valueInSOL: 5.2,
+      createdAt: "2025-04-16T10:00:00Z"
+    },
+    {
+      id: "nft12",
+      image: nft11,
+      title: "Ghost Samurai",
+      artistUsername: "#spiritslicer",
+      likes: 401,
+      valueInSOL: 3.0,
+      createdAt: "2025-04-15T13:45:00Z"
+    },
+    {
+      id: "nft13",
+      image: nft13,
+      title: "Urban Ninja",
+      artistUsername: "#shad0whype",
+      likes: 214,
+      valueInSOL: 2.2,
+      createdAt: "2025-04-15T17:00:00Z"
+    },
+    
+  ];
+  
   
   export const posts = [
     {
@@ -142,7 +283,39 @@ export const users = [
     },
   ];
 
-
+  export const featuredCreators = [
+    {
+      id: "creator1",
+      name: "Satoshi",
+      collection: "Azuki",
+      avatar: nft8,
+      floorPrice: 1.456,
+      currency: "SOL",
+      priceChange: "+23%",
+      nftCount: 1,
+    },
+    {
+      id: "creator2",
+      name: "Satoshi",
+      collection: "Azuki",
+      avatar: nft7,
+      floorPrice: 1.456,
+      currency: "SOL",
+      priceChange: "+23%",
+      nftCount: 1,
+    },
+    {
+      id: "creator3",
+      name: "Satoshi",
+      collection: "Azuki",
+      avatar: nft9,
+      floorPrice: 1.456,
+      currency: "SOL",
+      priceChange: "+23%",
+      nftCount: 1,
+    },
+  ];
+  
 
 
   export const messages = [
